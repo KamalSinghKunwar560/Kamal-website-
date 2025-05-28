@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kamal Singh Kunwar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(135deg, #007bff, #0056b3);
+      color: white;
+      padding: 6rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.3rem;
+    }
+    .btn-cta {
+      margin-top: 2rem;
+      font-weight: 500;
+    }
+    section {
+      padding: 4rem 1rem;
+    }
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #333;
+    }
+    .card {
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background-color: #f8f9fa;
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #6c757d;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Kamal Singh Kunwar</h1>
+    <p>Singham Police Officer</p>
+    <p class="lead mt-3">
+      I am here to support your journey towards mastering technology and achieving career success.
+    </p>
+    <a href="#contact" class="btn btn-light btn-lg btn-cta">Get In Touch</a>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="bg-light">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <p>
+            My role is to guide you through the complexities of IT, making learning engaging and effective.
+            With experience in the law enforcement sector and technology, I combine discipline with digital learning
+            to help you grow confidently in your career.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services / Expertise -->
+  <section id="services">
+    <div class="container">
+      <h2 class="section-title">What I Offer</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card p-3 h-100 shadow-sm">
+            <h5>Technology Guidance</h5>
+            <p>Help you understand the latest tools and platforms in the IT world, from basics to advanced levels.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3 h-100 shadow-sm">
+            <h5>Career Support</h5>
+            <p>Assist you with strategies to grow your career, prepare for jobs, and build your professional presence online.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3 h-100 shadow-sm">
+            <h5>Motivational Support</h5>
+            <p>Through YouTube and social platforms, I deliver motivational content that inspires and drives action.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="bg-primary text-white text-center">
+    <div class="container">
+      <h2 class="section-title text-white">Ready to Learn and Grow?</h2>
+      <p class="mb-4">Connect with me today and let's build a future driven by knowledge and determination.</p>
+      <a href="#contact" class="btn btn-light btn-lg">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="text-center">
+        <p>Email: <a href="mailto:kamalsinghkunwar560@gmail.com">kamalsinghkunwar560@gmail.com</a></p>
+        <p>
+          Facebook: <a href="https://www.facebook.com/kamalsinghkunwarofficial" target="_blank">facebook.com/kamalsinghkunwarofficial</a>
+        </p>
+        <p>
+          YouTube: <a href="https://youtube.com/@kamalsinghkunwar560" target="_blank">@kamalsinghkunwar560</a>
+        </p>
+        <a class="btn btn-outline-primary m-2" href="mailto:kamalsinghkunwar560@gmail.com">Send Email</a>
+        <a class="btn btn-outline-primary m-2" href="https://www.facebook.com/kamalsinghkunwarofficial" target="_blank">Visit Facebook</a>
+        <a class="btn btn-outline-danger m-2" href="https://youtube.com/@kamalsinghkunwar560" target="_blank">Visit YouTube</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; <span id="year"></span> Kamal Singh Kunwar. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+  </html>
